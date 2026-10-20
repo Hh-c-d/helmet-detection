@@ -1,0 +1,11 @@
+# Custom detection dataset (YOLO format)
+# Adjust paths and class names to your own dataset.
+
+path: ./dataset          # root dir with images/ and labels/ subdirs
+train: images/train
+val: images/val
+
+nc: 2
+names:
+  0: helmet
+  1: no_helmet
